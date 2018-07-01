@@ -25,60 +25,60 @@
 
 }
 *{
-	margin:0;
-	font-family: arial;
-	padding:0;
+  	margin:0;
+  	font-family: arial;
+  	padding:0;
 }
 .container {
-	padding-right: 35px;
-	padding-left: 35px;
-	margin-right: auto;
-	margin-left: auto;
+  	padding-right: 35px;
+  	padding-left: 35px;
+  	margin-right: auto;
+  	margin-left: auto;
 }
 .container-fluid {
-	padding-right: 10px;
-	padding-left: 10px;
-	margin-right: auto;
-	margin-left: auto;	
+  	padding-right: 10px;
+  	padding-left: 10px;
+  	margin-right: auto;
+  	margin-left: auto;	
 }
 .h1 {
-	font-family: inherit;
-	font-weight: 500;
-	line-height: 1.1;
-	font-size: 40px;
+  	font-family: inherit;
+  	font-weight: 500;
+  	line-height: 1.1;
+  	font-size: 40px;
 }
 .h2 {
-	font-family: inherit;
-	font-weight: 500;
-	line-height: 1.1;	
-	font-size: 32px;
+  	font-family: inherit;
+  	font-weight: 500;
+  	line-height: 1.1;	
+  	font-size: 32px;
 }
 .h3 {
-	font-family: inherit;
-	font-weight: 500;
-	line-height: 1.1;	
-	font-size: 28px;
+  	font-family: inherit;
+  	font-weight: 500;
+  	line-height: 1.1;	
+  	font-size: 28px;
 }
 .h4 {
-	font-family: inherit;
-	font-weight: 500;
-	line-height: 1.1;	
-	font-size: 24px;
+  	font-family: inherit;
+  	font-weight: 500;
+  	line-height: 1.1;	
+  	font-size: 24px;
 }
 .h5 {
-	font-family: inherit;
-	font-weight: 500;
-	line-height: 1.1;	
-	font-size: 20px;
+  	font-family: inherit;
+  	font-weight: 500;
+  	line-height: 1.1;	
+  	font-size: 20px;
 }
 .h6 {
-	font-family: inherit;
-	font-weight: 500;
-	line-height: 1.1;	
-	font-size: 16px;
+  	font-family: inherit;
+  	font-weight: 500;
+  	line-height: 1.1;	
+  	font-size: 16px;
 }
 .small {
-	font-weight: 50;
+    font-weight: 50;
 }
 .mark {
     padding: .2em;
@@ -89,89 +89,89 @@
     border-bottom: 1px dotted var(--main-black-color);
 }
 .kbd {
-	padding: 2px 4px;
-	background-color: var(--main-bg-primary-color);
+    padding: 2px 4px;
+    background-color: var(--main-bg-primary-color);
 }
 .Jumbovision{
-	padding: 60px;
-	color: var(--main-white-color);
-	background-color: var(--main-bg-primary-color);
+  	padding: 60px;
+  	color: var(--main-white-color);
+  	background-color: var(--main-bg-primary-color);
 }
 .Jumbovision-fluid{
-	padding-top: 60px;
-	padding-bottom: 60px;
-	padding-left: 10px;
-	color: var(--main-white-color);
-	background-color: var(--main-bg-primary-color);
-	text-align: left;
+  	padding-top: 60px;
+  	padding-bottom: 60px;
+  	padding-left: 10px;
+  	color: var(--main-white-color);
+  	background-color: var(--main-bg-primary-color);
+  	text-align: left;
 }
 .alert {
-	padding: 20px;
-	color: var(--main-white-color);
+  	padding: 20px;
+  	color: var(--main-white-color);
 }
 .left {
-  text-align: left;
+    text-align: left;
 }
 .right {
-  text-align: right;
+    text-align: right;
 }
 .center {
-  text-align: center;
+    text-align: center;
 }
 .justify {
-  text-align: justify;
+    text-align: justify;
 }
 .nowrap {
-  white-space: nowrap;
+    white-space: nowrap;
 }
 .lowercase {
-  text-transform: lowercase;
+    text-transform: lowercase;
 }
 .uppercase {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 .text-primary {
-	color: var(--main-bg-light-color);
+    color: var(--main-bg-light-color);
 }
 .text-success{
-	color: var(--main-success-light-color);
+    color: var(--main-success-light-color);
 }
 .text-info{
-	color: var(--main-info-light-color);
+    color: var(--main-info-light-color);
 }
 .text-warning{
-	color: var(--main-warning-light-color);
+    color: var(--main-warning-light-color);
 }
 .text-danger{
-	color: var(--main-danger-light-color);
+    color: var(--main-danger-light-color);
 }
 .text-default{
-	color: var(--main-default-primary-color);
+    color: var(--main-default-primary-color);
 }
 .bg-primary {
-	background-color: var(--main-bg-primary-color);
+    background-color: var(--main-bg-primary-color);
 }
 .bg-success{
-	background-color: var(--main-success-primary-color);
+    background-color: var(--main-success-primary-color);
 }
 .bg-info{
-	background-color: var(--main-info-primary-color);
+    background-color: var(--main-info-primary-color);
 }
 .bg-warning{
-	background-color: var(--main-warning-primary-color);
+    background-color: var(--main-warning-primary-color);
 }
 .bg-danger{
-	background-color: var(--main-danger-primary-color);
+    background-color: var(--main-danger-primary-color);
 }
 .bg-default{
-	background-color: var(--main-default-primary-color);
+    background-color: var(--main-default-primary-color);
 }
 .disabled {
     opacity: 0.6;
     cursor: not-allowed;
 }
 .clearfix {
-	clear: both;
+    clear: both;
 }
 .btn {
     border: none;
@@ -216,7 +216,7 @@
     cursor: pointer;	
 }
 .btn-animation:after{
-	display: block;
+	  display: block;
     position: absolute;
     padding-top: 300%;
     padding-left: 350%;
@@ -251,45 +251,42 @@
     transition: 0s
 }
 .primary {
-	background-color: var(--main-bg-primary-color);
+    background-color: var(--main-bg-primary-color);
 } 
 .primary:hover {
-	background-color: var(--main-bg-dark-color);
-
+    background-color: var(--main-bg-dark-color);
 }
 .success {
-	background-color: var(--main-success-primary-color);
+    background-color: var(--main-success-primary-color);
 } 
 .success:hover {
-	background-color: var(--main-success-dark-color);
-
+    background-color: var(--main-success-dark-color);
 }
 .info {
-	background-color: var(--main-info-primary-color);
+    background-color: var(--main-info-primary-color);
 } 
 .info:hover {
-	background: var(--main-info-dark-color);
+    background: var(--main-info-dark-color);
 }
 .warning {
-	background-color: var(--main-warning-primary-color);
+    background-color: var(--main-warning-primary-color);
 }
 .warning:hover {
-	background: var(--main-warning-dark-color);
+    background: var(--main-warning-dark-color);
 }
 .danger {
-	background: var(--main-danger-primary-color);
+    background: var(--main-danger-primary-color);
 	}  
 .danger:hover {
-	background: var(--main-danger-dark-color);
+    background: var(--main-danger-dark-color);
 }
 .default {
-	background-color: var(--main-default-primary-color); 
-	color: var(--main-black-color);
+    background-color: var(--main-default-primary-color); 
+    color: var(--main-black-color);
 }  
 .default:hover {
-	background: var(--main-default-dark-color);
+    background: var(--main-default-dark-color);
 }
-
 .btn-group-horizontal :nth-last-child(n){
     border: none;
     color: var(--main-white-color);
@@ -325,7 +322,6 @@
     clear: both;
     display: table;
 }
-
 .btn-group-flex :nth-last-child(n){
     border: none;
     color: var(--main-white-color);
@@ -344,75 +340,75 @@
     display: table;
 }
 .input {
-	height: 22px;
-	border: none;
-	border-bottom: 1px solid var(--main-bg-dark-color);
+  	height: 22px;
+  	border: none;
+  	border-bottom: 1px solid var(--main-bg-dark-color);
 }	
 input:focus {
-	border: none;
-	outline: none;
+	  border: none;
+	  outline: none;
     border-bottom: 2px solid var(--main-bg-dark-color);
 }
 .card {
-	padding: 25px;
+	  padding: 25px;
     -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2)	
 }
 .card-header {
-	padding: 25px;
-	background-color: var(--main-bg-gray-color);
+    padding: 25px;
+    background-color: var(--main-bg-gray-color);
 }
 .card-body {
-	padding: 25px;
-	background-color: var(--main-white-color)!important;
+    padding: 25px;
+    background-color: var(--main-white-color)!important;
 }
 .card-footer {
-	padding: 25px;
-	background-color: var(--main-bg-gray-color);
+    padding: 25px;
+    background-color: var(--main-bg-gray-color);
 }
 .panel {
-  border: 1px solid rgba(0, 0, 0, .05);
-  border-radius: 12px;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+    border: 1px solid rgba(0, 0, 0, .05);
+    border-radius: 12px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
 }
 .panel-header{
-	padding: 25px;
-	border-radius: inherit;
-	background-color: var(--main-bg-gray-color);
+    padding: 25px;
+    border-radius: inherit;
+    background-color: var(--main-bg-gray-color);
 }
 .panel-body {
-	padding: 25px;
-	background-color: var(--main-white-color)!important;
+    padding: 25px;
+    background-color: var(--main-white-color)!important;
 }
 .panel-footer {
-	padding: 25px;
-	background-color: var(--main-bg-gray-color);
+    padding: 25px;
+    background-color: var(--main-bg-gray-color);
 }
 .img {
-	border: 0;
+    border: 0;
 }
 .img-responsive {
-	display: block;
-	max-width: 100%;
-	height: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 .img-circle {
-	border-radius: 50%;
+    border-radius: 50%;
 }
 .img-thumbnail {
-	display: inline-block;
-	max-width: 100%;
-	height: auto;
-	padding: 4px;
-	line-height: 1.42857143;
-	background-color: var(--main-white-color);
-	border: 1px solid var(--main-bg-gray-color);
-	border-radius: 4px;	
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: var(--main-white-color);
+    border: 1px solid var(--main-bg-gray-color);
+    border-radius: 4px;	
 }
 .flex-container {
-	display: flex;
-	flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 .promo {
     margin: 40px 0;
@@ -421,57 +417,57 @@ input:focus {
     display: block
 }    
 .icon {
-  position: relative;
-  top: 1px;
-  display: inline-block;
-  font-style: normal;
-  font-weight: normal;
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
 }
 .icon-clock:before {
-  content: "\231A";
+    content: "\231A";
 }
 .icon-asterisk:before {
-	content: "\002a";
+	  content: "\002a";
 }
 .icon-plus:before {
-  content: "\002b";
+    content: "\002b";
 }
 .icon-comma:before {
-  content: "\002c";
+    content: "\002c";
 }
 .icon-sub:before {
-  content: "\002d";
+    content: "\002d";
 }
 .icon-dot:before {
-  content: "\002e";
+    content: "\002e";
 }
 .icon-divide:before {
-  content: "\002f";
+    content: "\002f";
 }
 .icon-colon:before {
-  content: "\003a";
+    content: "\003a";
 }
 .icon-semicolon:before {
-  content: "\003b";
+    content: "\003b";
 }
 .icon-less:before {
-  content: "\003c";
+    content: "\003c";
 }
 .icon-equal:before {
-  content: "\003d";
+    content: "\003d";
 }
 .icon-grater:before {
-  content: "\003e";
+    content: "\003e";
 }
 .icon-question:before {
-  content: "\003f";
+    content: "\003f";
 }
 .icon-mail:before {
-  content: "\2709";
+    content: "\2709";
 }
 .icon-edit:before {
-  content: "\2710";
+    content: "\2710";
 }
 .icon-x:before {
-  content: "\2715";
+    content: "\2715";
 }
