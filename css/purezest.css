@@ -353,3 +353,125 @@ input:focus {
 	outline: none;
     border-bottom: 2px solid var(--main-bg-dark-color);
 }
+.card {
+	padding: 25px;
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2)	
+}
+.card-header {
+	padding: 25px;
+	background-color: var(--main-bg-gray-color);
+}
+.card-body {
+	padding: 25px;
+	background-color: var(--main-white-color)!important;
+}
+.card-footer {
+	padding: 25px;
+	background-color: var(--main-bg-gray-color);
+}
+.panel {
+  border: 1px solid rgba(0, 0, 0, .05);
+  border-radius: 12px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+}
+.panel-header{
+	padding: 25px;
+	border-radius: inherit;
+	background-color: var(--main-bg-gray-color);
+}
+.panel-body {
+	padding: 25px;
+	background-color: var(--main-white-color)!important;
+}
+.panel-footer {
+	padding: 25px;
+	background-color: var(--main-bg-gray-color);
+}
+.img {
+	border: 0;
+}
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.img-thumbnail {
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+	padding: 4px;
+	line-height: 1.42857143;
+	background-color: var(--main-white-color);
+	border: 1px solid var(--main-bg-gray-color);
+	border-radius: 4px;	
+}
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.promo {
+    margin: 40px 0;
+    color: var(--main-txt-color);
+    font-size: 21px;
+    display: block
+}    
+.icon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+}
+.icon-clock:before {
+  content: "\231A";
+}
+.icon-asterisk:before {
+	content: "\002a";
+}
+.icon-plus:before {
+  content: "\002b";
+}
+.icon-comma:before {
+  content: "\002c";
+}
+.icon-sub:before {
+  content: "\002d";
+}
+.icon-dot:before {
+  content: "\002e";
+}
+.icon-divide:before {
+  content: "\002f";
+}
+.icon-colon:before {
+  content: "\003a";
+}
+.icon-semicolon:before {
+  content: "\003b";
+}
+.icon-less:before {
+  content: "\003c";
+}
+.icon-equal:before {
+  content: "\003d";
+}
+.icon-grater:before {
+  content: "\003e";
+}
+.icon-question:before {
+  content: "\003f";
+}
+.icon-mail:before {
+  content: "\2709";
+}
+.icon-edit:before {
+  content: "\2710";
+}
+.icon-x:before {
+  content: "\2715";
+}
