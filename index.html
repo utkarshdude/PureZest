@@ -4,6 +4,7 @@
 	<title>PureZest</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/purezest.css">
+	<script src="js/jquery.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -26,12 +27,12 @@
 	</div>
 	<div class="container">
 		<h2 class="h2">Alerts</h2>
-		<div class="alert primary">Hay i am primary alert</div>
-		<div class="alert success">Hay i am success alert</div>
-		<div class="alert info">Hay i am info alert</div>
-		<div class="alert danger">Hay i am danger alert</div>
-		<div class="alert default">Hay i am default alert</div>
-		<div class="alert warning">Hay i am warning alertm</div>
+		<div class="alert primary"><button class="close-alert primary">x</button><h5 class="alert-label">Hay i am primary alert!</h5></div>
+		<div class="alert success"><button class="close-alert success">x</button><h5 class="alert-label">Hay i am success alert!</h5></div>
+		<div class="alert info"><button class="close-alert info">x</button><h5 class="alert-label">Hay i am info alert!</h5></div>
+		<div class="alert danger"><button class="close-alert danger">x</button><h5 class="alert-label">Hay i am danger alert!</h5></div>
+		<div class="alert default"><button class="close-alert default">x</button><h5 class="alert-label">Hay i am default alert!</h5></div>
+		<div class="alert warning"><button class="close-alert warning">x</button><h5 class="alert-label">Hay i am warning alert!</h5></div>
 	</div>
 	<div class="container">
 		<h2 class="h2">Background colors</h2>
@@ -53,12 +54,12 @@
 	</div>
 	<div class="container">
 		<h2 class="h2">Buttons</h2>
-		<button class="btn primary">Primary</button>
-		<button class="btn success">Success</button>
-		<button class="btn info">Info</button>
-		<button class="btn warning">Warning</button>
-		<button class="btn danger">Danger</button>
-		<button class="btn default">Default</button>
+		<button class="btn primary single">Primary</button>
+		<button class="btn success single">Success</button>
+		<button class="btn info single">Info</button>
+		<button class="btn warning single">Warning</button>
+		<button class="btn danger single">Danger</button>
+		<button class="btn default single">Default</button>
 		<button class="btn primary btn-animation">Primary animation</button>
 		<h2 class="h2">Buttons sizes</h2>
 		<button class="btn primary btn-lg">lg</button>
@@ -141,25 +142,25 @@
 	<div class="container">
 		<h2 class="h2">Progress bars</h2>
 		  <div class="progress">
-    		  <div class="progress-bar" style="width:60%;">60% </div>
+    		  <div class="progress-bar" style="width:60%;"><label>60%</label></div>
   		  </div>
 		  <div class="progress">
-    		  <div class="progress-bar primary" style="width:60%;">60% primary</div>
+    		  <div class="progress-bar primary" style="width:60%;"><label>60%</label></div>
   		  </div>  
 		  <div class="progress">
-    		  <div class="progress-bar success" style="width:60%;">60% success</div>
+    		  <div class="progress-bar success" style="width:60%;"><label>60%</label></div>
   		  </div>  
 		  <div class="progress">
-    		  <div class="progress-bar info" style="width:60%;">60% info</div>
+    		  <div class="progress-bar info" style="width:60%;"><label>60%</label></div>
   		  </div>
 		  <div class="progress">
-    		  <div class="progress-bar warning" style="width:60%;">60% warning</div>
+    		  <div class="progress-bar warning" style="width:60%;"><label>60%</label></div>
   		  </div>   		    
 		  <div class="progress">
-    		  <div class="progress-bar danger" style="width:60%;">60% danger</div>
+    		  <div class="progress-bar danger" style="width:60%;"><label>60%</label></div>
   		  </div> 
 		  <div class="progress">
-    		  <div class="progress-bar default" style="width:60%;">60% default</div>
+    		  <div class="progress-bar default" style="width:60%;"><label>60%</label></div>
   		  </div>      		    		  		  
 	</div>
 	<div class="container">
