@@ -1,6 +1,6 @@
 :root {
     --main-bg-primary-color: #00675b;
-    --main-bg-light-colo: #429588;
+    --main-bg-light-color: #429588;
     --main-bg-dark-color: #003c32;
     --main-txt-color: #52c7b8;
     --main-border-color: #003c32;
@@ -250,43 +250,6 @@
     opacity: 1;
     transition: 0s
 }
-.primary {
-    background-color: var(--main-bg-primary-color);
-} 
-.primary:hover {
-    background-color: var(--main-bg-dark-color);
-}
-.success {
-    background-color: var(--main-success-primary-color);
-} 
-.success:hover {
-    background-color: var(--main-success-dark-color);
-}
-.info {
-    background-color: var(--main-info-primary-color);
-} 
-.info:hover {
-    background: var(--main-info-dark-color);
-}
-.warning {
-    background-color: var(--main-warning-primary-color);
-}
-.warning:hover {
-    background: var(--main-warning-dark-color);
-}
-.danger {
-    background: var(--main-danger-primary-color);
-	}  
-.danger:hover {
-    background: var(--main-danger-dark-color);
-}
-.default {
-    background-color: var(--main-default-primary-color); 
-    color: var(--main-black-color);
-}  
-.default:hover {
-    background: var(--main-default-dark-color);
-}
 .btn-group-horizontal :nth-last-child(n){
     border: none;
     color: var(--main-white-color);
@@ -406,16 +369,223 @@ input:focus {
     border: 1px solid var(--main-bg-gray-color);
     border-radius: 4px;	
 }
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-}
 .promo {
     margin: 40px 0;
     color: var(--main-txt-color);
     font-size: 21px;
     display: block
-}    
+}
+.badge {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--main-bg-primary-color);
+} 
+.progress {
+    height: 20px;
+    margin-bottom: 20px;
+    background-color: var(--main-bg-light-color);
+    border-radius: 10px;
+    overflow: hidden;
+    display: block;
+}
+.progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    text-align: center;
+    padding: 2px;
+    color: var(--main-white-color);
+    text-align: center;
+    background-color: var(--main-bg-dark-color);  
+    border-radius: 10px; 
+    display: inherit;
+}
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    padding-top: 125px;
+    z-index: 1;
+    background-color: #00000050;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;  
+}
+.modal-content {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    background-color: var(--main-white-color);
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05);    
+}  
+.modal-header{
+    padding: 25px;
+    background-color: var(--main-bg-dark-color);
+    color: var(--main-white-color);
+}
+.modal-body {
+     padding: 25px;
+}
+.modal-footer{
+    padding: 25px;
+    background-color: var(--main-bg-dark-color);
+    color: var(--main-white-color);
+}
+.modal-primary .modal-header{
+    padding: 25px;
+    background-color: var(--main-bg-dark-color);
+    color: var(--main-white-color);
+}
+.modal-primary .modal-body {
+     padding: 25px;
+     background-color: var(--main-bg-light-color);
+     color: var(--main-white-color);
+}
+.modal-primary .modal-footer{
+    padding: 25px;
+    background-color: var(--main-bg-primary-color);
+    color: var(--main-white-color);
+}
+.modal-success .modal-header{
+    padding: 25px;
+    background-color: var(--main-success-dark-color);
+    color: var(--main-white-color);
+}
+.modal-success .modal-body {
+     padding: 25px;
+     background-color: var(--main-success-light-color);
+     color: var(--main-white-color);
+}
+.modal-success .modal-footer{
+    padding: 25px;
+    background-color: var(--main-success-primary-color);
+    color: var(--main-white-color);
+}
+.modal-info .modal-header{
+    padding: 25px;
+    background-color: var(--main-info-dark-color);
+    color: var(--main-white-color);
+}
+.modal-info .modal-body {
+     padding: 25px;
+     background-color: var(--main-info-light-color);
+     color: var(--main-white-color);
+}
+.modal-info .modal-footer{
+    padding: 25px;
+    background-color: var(--main-info-primary-color);
+    color: var(--main-white-color);
+}
+.modal-warning .modal-header{
+    padding: 25px;
+    background-color: var(--main-warning-dark-color);
+    color: var(--main-white-color);
+}
+.modal-warning .modal-body {
+     padding: 25px;
+     background-color: var(--main-warning-light-color);
+     color: var(--main-white-color);
+}
+.modal-warning .modal-footer{
+    padding: 25px;
+    background-color: var(--main-warning-primary-color);
+    color: var(--main-white-color);
+}
+.modal-danger .modal-header{
+    padding: 25px;
+    background-color: var(--main-danger-dark-color);
+    color: var(--main-white-color);
+}
+.modal-danger .modal-body {
+     padding: 25px;
+     background-color: var(--main-danger-light-color);
+     color: var(--main-white-color);
+}
+.modal-danger .modal-footer{
+    padding: 25px;
+    background-color: var(--main-danger-primary-color);
+    color: var(--main-white-color);
+}
+.modal-default .modal-header{
+    padding: 25px;
+    background-color: var(--main-default-dark-color);
+    color: var(--main-black-color);
+}
+.modal-default .modal-body {
+     padding: 25px;
+     background-color: var(--main-default-light-color);
+     color: var(--main-black-color);
+}
+.modal-default .modal-footer{
+    padding: 25px;
+    background-color: var(--main-default-primary-color);
+    color: var(--main-black-color);
+}
+.close {
+    float: right;
+    font-size: 26px;
+    font-weight: bold;
+    color: var(--main-white-color);
+    cursor: pointer;
+}
+.close:hover {
+    font-size: 36px;
+}
+.primary {
+    background-color: var(--main-bg-primary-color);
+} 
+.primary:hover {
+    background-color: var(--main-bg-dark-color);
+}
+.success {
+    background-color: var(--main-success-primary-color);
+} 
+.success:hover {
+    background-color: var(--main-success-dark-color);
+}
+.info {
+    background-color: var(--main-info-primary-color);
+} 
+.info:hover {
+    background: var(--main-info-dark-color);
+}
+.warning {
+    background-color: var(--main-warning-primary-color);
+}
+.warning:hover {
+    background: var(--main-warning-dark-color);
+}
+.danger {
+    background: var(--main-danger-primary-color);
+  }  
+.danger:hover {
+    background: var(--main-danger-dark-color);
+}
+.default {
+    background-color: var(--main-default-primary-color); 
+    color: var(--main-black-color);
+}  
+.default:hover {
+    background: var(--main-default-dark-color);
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}   
 .icon {
     position: relative;
     top: 1px;
